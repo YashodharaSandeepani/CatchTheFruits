@@ -11,14 +11,10 @@ CatchTheFruits is an engaging mobile game where players tap on fruits to earn po
 5. **Game Over**: The game ends when the timer runs out, and a dialog box shows the player's score with an option to play again.
 
 ## Screenshots
-### Home Screen
-![Home Screen](ss/HomeScreen.png)
 
-### Game Screen
-![Game Screen](ss/Game.png)
-
-### Score Screen
-![Score Screen](ss/Score.png)
+| Home Screen                         | Game Screen                         | Score Screen                         |
+|-------------------------------------|-------------------------------------|--------------------------------------|
+| ![Home Screen](ss/HomeScreen.png)   | ![Game Screen](ss/Game.png)         | ![Score Screen](ss/Score.png)        |
 
 ## Instructions
 - The player enters their name on the main screen.
