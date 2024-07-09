@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/cf_bg"
+    tools:context=".GetUserDetailsActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="232dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/player_names_background"
+        android:text="Hey Welcome to Catch the Fruits"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/player1_name"
+        android:layout_width="313dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/textview_border"
+        android:hint="Player Name"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="332dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/play_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/player1_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
